@@ -1,6 +1,7 @@
 {
   "name": "my-project",
   "source": "src/index.html",
+  "homepage": "https://tkravche.github.io/TestTweets",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
