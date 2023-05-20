@@ -1,4 +1,5 @@
+import { createTweetCardMarkup } from './createTweetCardMarkup';
+
 export function createTweetList(tweets) {
-  const tweetList = tweets.map(tweet => createPhotoCardMarkup(tweet)).join('');
-  refs.gallery.insertAdjacentHTML('beforeend', tweetList);
+  return tweets.map(tweet => createTweetCardMarkup(tweet)).join('');
 }
